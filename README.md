@@ -1,32 +1,59 @@
-# Cybersecurity Internship – Task 1: Foundations & Threat Modeling
+Cyber Security Internship – Tasks 1 to 7
+This repository contains all completed tasks from my Cyber Security Internship, focusing on fundamental and practical concepts in cybersecurity. Each task includes documentation, screenshots, and analysis performed in a controlled lab environment using Kali Linux and security tools.
 
-This repository documents my work for **Task 1** of the Cybersecurity Internship program, focusing on core security principles and attack surface analysis.
+📌 Task Overview
 
-## 📖 Overview
+Task 1 – Introduction to Cybersecurity & CIA Triad
+Learned the basics of cybersecurity concepts
+Explained Confidentiality, Integrity, and Availability (CIA Triad)
+Analyzed real-world security incidents
 
-The goal of this task was to build a foundational understanding of cybersecurity concepts, threat actors, and how to visualize system vulnerabilities.
+Task 2 – Types of Cyber Attackers & Attack Surface
+Studied different attacker types (Script Kiddies, Hacktivists, Nation State, etc.)
+Explained digital, physical, and social attack surfaces
+Learned the importance of attack surface reduction
 
-## 📚 Topics Covered & Key Learnings
+Task 3 – Network Traffic Analysis using Wireshark
+Captured live network traffic
+Observed TCP Three-Way Handshake (SYN, SYN-ACK, ACK)
+Analyzed DNS, HTTP, TLS, and ICMP packets
 
-- **CIA Triad:** Explained the principles of Confidentiality, Integrity, and Availability with real-world case studies (e.g., data leaks, ransomware attacks).
-- **Types of Cyber Attackers:** Categorized adversaries from Script Kiddies to Nation-State Actors based on skill, motive, and resources.
-- **Attack Surface Analysis:** Identified and classified Digital, Physical, and Social entry points for potential attacks.
-- **OWASP Top 10:** Reviewed the critical web application security risks, emphasizing Broken Access Control, Injection, and Cryptographic Failures.
-- **Data Flow Diagrams (DFD):** Learned to map data flow (User → Application → Server → Database) to identify potential security weak points.
+Task 4 – Password Cracking & Authentication Security
+Generated MD5 hash for weak passwords
+Performed dictionary attack using John the Ripper
+Studied brute force vs dictionary attacks
+Learned the importance of strong hashing and MFA
 
-## 🛠️ Practical Application
+Task 5 – Malware File Analysis using VirusTotal
+Uploaded EICAR test file for analysis
+Reviewed detection ratio and sandbox behavior
+Analyzed contacted domains and IP addresses
+Understood basic static and dynamic malware analysis
 
-This task involved:
-- Researching and summarizing core concepts.
-- Applying theories to everyday applications (e.g., email, banking apps).
-- Understanding how the OWASP Top 10 guides secure development.
+Task 6 – Introduction to Cryptography
+Performed symmetric encryption and decryption using AES
+Generated RSA key pairs
+Digitally signed and verified files
+Verified data integrity using SHA-256 hashing
 
-## 📁 Repository Contents
+Task 7 – Web Application Vulnerability Testing using DVWA
+Installed and configured DVWA on Kali Linux
+Tested SQL Injection, XSS, and Brute Force vulnerabilities
+Captured results with screenshots
+Learned mitigation techniques and secure coding practices
 
-- `README.md` – This overview file.
-- `Task1_Summary.pdf` – Detailed write-up of all concepts.
-- `/docs` – (Optional) Any additional diagrams or notes.
+🛠️ Tools & Technologies Used
 
-## ✅ Outcome
+Kali Linux
+Apache2 & MariaDB
+Wireshark
+John the Ripper
+OpenSSL
+VirusTotal
+Damn Vulnerable Web Application (DVWA)
 
-A solid conceptual foundation in cybersecurity, threat awareness, and the initial skills for basic threat modeling and attack surface identification.
+⚠️ Disclaimer
+All experiments and testing were performed in a controlled lab environment for educational purposes only. No unauthorized systems or real-world targets were involved.
+
+🎯 Conclusion
+This repository demonstrates practical learning of cybersecurity fundamentals, network analysis, cryptography, malware analysis, and web application security through hands-on tasks.
